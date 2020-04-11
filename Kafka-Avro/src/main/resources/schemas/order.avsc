@@ -1,0 +1,19 @@
+{
+    "type": "record",
+    "namespace": "com.pallavtyagi.kafkaavro.model",
+    "name": "Order",
+    "fields": [
+        {
+            "name": "oderId",
+            "type": "string"
+        },
+        {
+            "name": "itemName",
+            "type": "string"
+        },
+        {
+            "name": "quantity",
+            "type": "int"
+        }
+    ]
+}
